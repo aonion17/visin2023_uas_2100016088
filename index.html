@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dashboard</title>
+  <script src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="dashboard.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .navbar {
+      background-color: #1F5C9C; 
+      color: #fff; 
+      width: 100%;
+      padding: 10px 0;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    #chart1 {
+      margin-top: 20px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    #chart-data {
+      margin-top: 10px;
+      text-align: left;
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    UAS Visualisasi Informasi | 2100016088-Deka Marella
+  </nav>
+
+  <div id="chart1">
+    <div>Grafik</div>
+  </div>
+
+  <div id="chart-data">
+    <p>Visualisasi Data Penyebab dan Jumlah Kematian dari Tahun 2000-2022:</p>
+    <ul>
+      <li>
+        Bencana Alam: Tidak ada kejadian hingga 2003, lalu lonjakan pada 2004,
+        fluktuatif hingga 2016, naik kembali sejak 2017.
+      </li>
+      <li>
+        Bencana Non Alam: Mulai meningkat 2002-2003, puncak pada 2008-2009,
+        fluktuatif hingga 2018, kembali meningkat sejak 2019.
+      </li>
+      <li>
+        Bencana Sosial: Rendah hingga 2006, naik tajam 2007-2009, stabil hingga
+        2019, hampir nol pada 2020-2021, dan tak ada kejadian pada 2022.
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
