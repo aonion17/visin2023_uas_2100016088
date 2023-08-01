@@ -28,7 +28,7 @@ function drawCharts(data) {
         width: 1500,
         height: 700,
         hAxis: { title: 'Tahun' },
-        vAxis: { title: 'Jumlah Manusia' },
+        vAxis: { title: 'Jumlah Kematian' },
         colors: ['#ff0000', '#0583F2', '#000000', '#FFFF00'],
     };
 
